@@ -1,0 +1,26 @@
+{
+  "name": "project-sass",
+  "version": "1.0.0",
+  "description": "landing page for project-sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanothierry/Project-Sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanothierry/Project-Sass/issues"
+  },
+  "homepage": "https://github.com/tanothierry/Project-Sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
